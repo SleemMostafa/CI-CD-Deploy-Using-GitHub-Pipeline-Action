@@ -1,0 +1,6 @@
+@CI_CD_Deploy_Using_GitHub_Pipeline_Action_HostAddress = http://localhost:5033
+
+GET {{CI_CD_Deploy_Using_GitHub_Pipeline_Action_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
