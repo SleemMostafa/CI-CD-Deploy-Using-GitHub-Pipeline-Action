@@ -14,7 +14,7 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: './publish'
   DOTNET_VERSION: '9.x'
   SOLUTION_PATH: 'CI-CD-Deploy-Using-GitHub-Pipeline-Action.sln'
-  API_PROJECT_PATH: 'CI-CD-Deploy-Using-GitHub-Pipeline-Action'
+  API_PROJECT_PATH: 'CI-CD-Deploy-Using-GitHub-Pipeline-Action/ClaroService.Api/ClaroService.Api.csproj'
   PUBLISH_DIR: './publish'
 
 # Define the separate jobs that make up this workflow
@@ -22,7 +22,7 @@ jobs:
   # First job: build and test the application
   build-and-test:
     name: Build and Test
-    runs-on: ubuntu-latest # Use Ubuntu runner for faster and cheaper builds
+    runs-on: ubuntu-latest # Use Ubuntu runner for faster builds
 
     steps:
       - name: Checkout source code
