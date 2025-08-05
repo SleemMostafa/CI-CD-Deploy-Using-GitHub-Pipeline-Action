@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Allow manual triggering from GitHub UI
   push:
     branches:
-      - main # Run automatically when code is pushed to main branch
+      - master # Run automatically when code is pushed to main branch
 
 # Environment variables used throughout the workflow
 env:
