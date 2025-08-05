@@ -6,7 +6,7 @@ This is a **test project** demonstrating how to implement a **CI/CD pipeline** t
 
 This repository contains:
 
-- A sample ASP.NET Core (.NET 6/7/8) application
+- A sample ASP.NET Core (.NET 9) application
 - A GitHub Actions workflow file using `yaml` to automate the CI/CD process
 - Configuration for deploying to Azure App Service
 - Steps for building and testing the project before deployment
@@ -20,7 +20,7 @@ This repository contains:
 
 ## 🧰 Tech Stack
 
-- [.NET 6/7/8/9](https://dotnet.microsoft.com/)
+- [.NET 9](https://dotnet.microsoft.com/)
 - [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/)
 - [GitHub Actions](https://docs.github.com/en/actions)
 - CI/CD with YAML workflows
