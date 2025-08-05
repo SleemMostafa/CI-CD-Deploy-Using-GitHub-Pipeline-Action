@@ -14,7 +14,7 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: './publish'
   DOTNET_VERSION: '9.x'
   SOLUTION_PATH: 'CI-CD-Deploy-Using-GitHub-Pipeline-Action.sln'
-  API_PROJECT_PATH: 'CI-CD-Deploy-Using-GitHub-Pipeline-Action/ClaroService.Api/ClaroService.Api.csproj'
+  API_PROJECT_PATH: 'CI-CD-Deploy-Using-GitHub-Pipeline-Action.csproj'
   PUBLISH_DIR: './publish'
 
 # Define the separate jobs that make up this workflow
